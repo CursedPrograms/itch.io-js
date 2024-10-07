@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buy My Game</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://cursedprograms.github.io/cursedentertainment/cursedFavicon.png" rel="icon" type="image/x-icon" />
+</head>
+<body>
+
+    <button id="buy_button">Buy My Game!</button>
+
+    <script type="text/javascript" src="https://static.itch.io/api.js"></script>
+    <script type="text/javascript">
+      Itch.attachBuyButton(document.getElementById("buy_button"), {
+        user: "cursed-entertainment",
+        game: "nyctoiia-the-augmented-reality-experience"
+      });
+    </script>
+
+</body>
+</html>
