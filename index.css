@@ -4,3 +4,17 @@
 @import url('https://cursedprograms.github.io/cursedentertainment/styles/error-style.css');
 @import url('https://cursedprograms.github.io/cursedentertainment/styles/main-style.css');
 @import url('/styles/colour-scheme.css');
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; /* Full viewport height */
+            margin: 0; /* Remove default margin */
+            background-color: #f0f0f0; /* Optional background color */
+        }
+        #buy_button {
+            padding: 10px 20px; /* Add some padding */
+            font-size: 16px; /* Adjust font size */
+            cursor: pointer; /* Change cursor to pointer */
+        }
